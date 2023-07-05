@@ -129,6 +129,10 @@ body{
     transition: all 0.5s ease;
 }
 
+.contenedor-buscador{
+    display: none;
+}
+
 .contenedor-contenedor-buscador{
     display: none;
 }
@@ -226,6 +230,33 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0px;
+    }
+
+    .contenedor-hamburguesa{
+        display: none;
+    }
+
+    .contenedor-logo {
+        width: 20%;
+    }
+
+    .nav-bar {
+        width: 65%;
+        justify-content: space-around;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .contenedor-user {
+        justify-content: center;
+    }
+
+    .contenedor-carrito {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
     }
 
     .header-containerList-items{

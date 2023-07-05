@@ -254,3 +254,31 @@ margin: 5px;
     width: 80%;
 }
 }
+
+ /*  DESKTOP VIEWPORT  */
+ @media (min-width: 769px){
+    .article-carrusel{
+        padding-top: 16vh;
+    }
+
+    .card{
+        width: 20%;
+    }
+
+    .contenedor-especiales{
+        width: 20%;
+    }
+
+    .producto{
+        width: 22%;
+        max-height: 110vh;
+    }
+
+    .contenedor-final-registro {
+       width: 100%;
+    }
+
+    .main-registrarse {
+        width: 55%;
+    }
+ }

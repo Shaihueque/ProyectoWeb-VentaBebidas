@@ -1,9 +1,9 @@
 const path = require('path'); // unifica windows y mac con el path.resolve
 
-const carritoControllers = {
+const cartControllers = {
     index: (req, res)=>{
-        res.render('users/carrito')
+        res.render('users/cart')
     }
 }
 
-module.exports = carritoControllers;
+module.exports = cartControllers;

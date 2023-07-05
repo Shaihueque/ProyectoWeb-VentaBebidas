@@ -1,0 +1,62 @@
+
+.register_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12vh;
+    align-items: center;
+}
+
+.register_box p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.register_form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.register_form input {
+    border: 1px solid rgb(185, 185, 185);
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.register_form input::placeholder {
+    color: rgb(185, 185, 185);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.register_form button {
+    border: 1px solid rgb(185, 185, 185);
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.buttons label {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.buttons label a {
+    color: initial;
+}

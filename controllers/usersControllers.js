@@ -1,11 +1,11 @@
 const path = require('path'); // unifica windows y mac con el path.resolve
 
 const usersControllers = {
-    index: (req, res)=>{
-        res.render('users/login')
+    login: (req, res) => {
+        res.render(path.join(__dirname, '../views/users/login'));
     },
-    carrito: (req, res)=>{
-        res.render('users/carrito')
+    register: (req, res) => {
+        res.render(path.join(__dirname, '../views/users/register'))
     }
 }
 

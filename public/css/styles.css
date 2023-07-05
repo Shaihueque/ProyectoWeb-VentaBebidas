@@ -133,6 +133,9 @@ body{
     display: none;
 }
 
+.header-containerList-items{
+    display: none;
+}
 
 /* VIEWPORT PARA TABLETS */
 @media (min-width: 481px){
@@ -211,5 +214,42 @@ body{
 
 /* VIEWPORT PARA DESKTOP */
 @media (min-width: 761px){
-    
+
+    .header-header{
+        background-color: black;
+        height: auto;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 23;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .header-containerList-items{
+        display: block;
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+
+    .header-containerList-items ul{
+        display: flex;
+        padding: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .header-containerList-items ul li{
+        font-weight: bold;
+        list-style-type: none;
+        color: white;
+    }
+
+    .contenedor-contenedor-buscador{
+        display: none;
+    }
 }

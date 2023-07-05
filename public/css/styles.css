@@ -122,3 +122,76 @@ body{
     border: none;
     transition: all 0.5s ease;
 }
+
+.contenedor-contenedor-buscador{
+    display: none;
+}
+
+
+/* VIEWPORT PARA TABLETS */
+@media (min-width: 481px){
+
+    .header-header{
+        background-color: black;
+        color: white;
+        /*height: 9vh;*/
+        height: auto;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 23;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contenedor-header{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenedor-search{
+        display: none;
+    }
+
+    .contenedor-contenedor-buscador{
+        display: flex;
+        padding-bottom: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .contenedor-buscador{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-buscador{
+        width: 100%;
+        display: flex;
+       /* justify-content: center;*/
+       background-color: white;
+        border-radius: 10px;
+        border: solid 1px rgb(180, 180, 180);
+    }
+
+    .buscador-home{
+        width: 90%;
+        border-radius: 10px;
+        padding: 0px 15px;
+        border: none;
+        padding: 8px;
+    }
+
+    .btn-buscador{
+        width: 10%;
+        padding: 0px 6px;
+        background-color: transparent;
+        border: none;
+        color: var(--op2-color-bg-blue-oscuro);
+        transition: all 0.5s ease;
+    }
+
+}

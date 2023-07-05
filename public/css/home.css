@@ -6,12 +6,17 @@
 
 /*  SECCION MAIN HOME */
 
+.contenedor-general{
+    width: 100%;
+}
+
 .article-carrusel{
     position: relative;
     margin-bottom: -4px;
     width: 100%;
-    height: 58vh;
+    height: 65vh;
     max-height: 900px;
+    padding-top: 9vh;
 }
 
 .img-carrusel{
@@ -181,4 +186,71 @@ margin: 5px;
     font-weight: bold;
     transition: all 0.3s ease 0s;
     padding: 12px;
+}
+
+/* VIEWPORT PARA TABLETS */
+@media (min-width: 481px){
+
+    .article-carrusel{
+        padding-top: 19vh;
+        height: 95vh;
+    }
+
+    .section-productos{
+        padding-top: 5px;
+    }
+
+    .container-productos{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    }
+
+    .card{
+        width: 45%;
+    }
+
+    /*  SECCION DE SELECCIONADOS ESPECIALES */
+
+.seccion-promos-especiales{
+    padding-top: 5px;
+}
+
+.titulo-seccion-especial{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenedor-especiales {
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedor-img-card{
+    height: 60vh;
+}
+
+.img-product{
+    width: 75%;
+    height: 100%;
+}
+
+/*  MARCAS DESTACADAS */
+.marcas-destacadas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenedor-texto-registro {
+    width: 90%;
+}
+
+.main-registrarse{
+    width: 80%;
+}
 }

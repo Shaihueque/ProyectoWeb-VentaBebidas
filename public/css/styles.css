@@ -217,7 +217,7 @@ body{
 }
 
 /* VIEWPORT PARA DESKTOP */
-@media (min-width: 761px){
+@media (min-width: 769px){
 
     .header-header{
         background-color: black;

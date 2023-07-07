@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.login_box p {
+.login_box p, .register_link p {
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -44,6 +44,46 @@
     font-size: 12px;
 }
 
+.login_form button {
+    border: 1px solid rgb(185, 185, 185);
+    background-color: black;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.register_link {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+    align-self: start;
+}
+
+.register_link div.register_button {
+    display: flex;
+    place-content: center;
+    width: 87%;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px 0px 10px 0px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.register_link div.register_button a {
+    align-items: center;
+}
+
 .buttons {
     font-size: 15px;
     display: flex;
@@ -58,4 +98,24 @@
 .forgotten_password a, .register_link a {
     text-decoration: none;
     color: black;
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    .login {
+        display: flex;
+    }
+
+    .login_box {
+        width: 30%;
+        margin-top: 20vh;
+        margin-left: 5%;
+    }
+
+    .register_link {
+        width: 30%;
+        margin-left: 5%;
+        margin-top: 20vh;
+    }
+
 }

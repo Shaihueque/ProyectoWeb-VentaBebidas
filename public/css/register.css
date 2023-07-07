@@ -60,3 +60,12 @@
 .buttons label a {
     color: initial;
 }
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    
+    .register_box {
+        width: 30%;
+        margin-top: 20vh;
+        margin-left: 5%;
+    }

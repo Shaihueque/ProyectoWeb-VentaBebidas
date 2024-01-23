@@ -56,6 +56,8 @@ body{
     background-color: #EFEFEF;
 }
 
+/*CCS del header*/
+
 .header-header{
     background-color: black;
     color: white;
@@ -141,9 +143,85 @@ body{
     display: none;
 }
 
+/*  FOOTER MOBILE FIRST */
+
+.footer{
+    
+    background-color: black;
+    color: var(--op2-color-gris-claro);
+    height: 90vh;
+    justify-content: space-between;
+    border-top: solid 1px rgb(204, 204, 204);
+  }
+
+  .main-footer {
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+    text-transform: uppercase;
+  }
+
+  .footer_item { 
+    border-bottom: 1px solid #ebebeb;
+    padding: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .lista-footer{
+    display: none;
+  }
+
+  .lista-footer ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+
+  .item_icon{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* FOOTER IMAGENES TARJETAS */
+
+  .modos-pago {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    align-self: center;
+  }
+
+  .footer-icono-tarjetas {
+    margin: 5px;
+    width: 45px;
+    height: 30px;
+  }
+
+  /*  FOOTER REDES SOCIALES  */
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .iconos-red-social {
+    margin: 5px;
+    font-size: 25px;
+    /*transition: all 0.3s ease 0s;;*/
+  }
+
+  /*  FOOTER REDES SOCIALES  */
+  .leycopyright {
+    text-align: center;
+  font-size: 12px;
+  margin: 1rem;
+  }
+
+
 /* VIEWPORT PARA TABLETS */
 @media (min-width: 481px){
-
+ /*CCS del header*/
     .header-header{
         background-color: black;
         color: white;
@@ -231,7 +309,7 @@ body{
         flex-wrap: wrap;
         gap: 0px;
     }
-
+/* Contenedor hamburgesa */
     .contenedor-hamburguesa{
         display: none;
     }

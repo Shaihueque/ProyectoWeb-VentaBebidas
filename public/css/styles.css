@@ -166,6 +166,8 @@ body{
     padding: 15px;
     justify-content: space-between;
     flex-direction: column;
+    width: 100%;
+
   }
 
   .lista-footer{
@@ -190,6 +192,7 @@ body{
     flex-wrap: wrap;
     width: 70%;
     align-self: center;
+    justify-content: center;
   }
 
   .footer-icono-tarjetas {
@@ -211,7 +214,7 @@ body{
     /*transition: all 0.3s ease 0s;;*/
   }
 
-  /*  FOOTER REDES SOCIALES  */
+  /*  FOOTER copyright */
   .leycopyright {
     text-align: center;
   font-size: 12px;
@@ -291,6 +294,26 @@ body{
         color: var(--op2-color-bg-blue-oscuro);
         transition: all 0.5s ease;
     }
+
+/*FOOTER */
+
+/*  FOOTER REDES SOCIALES  */
+
+    .redes-sociales {
+        gap: 30px;
+    }
+
+    .iconos-red-social {
+        margin: 5px;
+        font-size: 40px;
+      }
+
+/* FOOTER IMAGENES TARJETAS */    
+    
+.footer-icono-tarjetas {
+    width: 12vh; 
+    height: auto;
+}
 
 }
 

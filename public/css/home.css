@@ -274,6 +274,10 @@ margin: 5px;
         max-height: 110vh;
     }
 
+    .marcas-destacadas {
+       /* margin-bottom: 10px;*/
+    }
+
     .contenedor-final-registro {
        width: 100%;
        height: 15rem;
